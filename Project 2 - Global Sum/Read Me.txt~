@@ -1,0 +1,8 @@
+Global Sum
+
+Write a global sum operation with MPI
+You are to write a function with the following specification:
+
+void global_sum(double* result, int rank, int size, double my_value);
+
+

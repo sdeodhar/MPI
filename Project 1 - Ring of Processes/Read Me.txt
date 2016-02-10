@@ -1,0 +1,7 @@
+Ring of Processes
+
+Imagine that all processes are logically connected in a ring topology as follows:
+Process rank is connected only to processes (rank + 1) % size and (rank – 1) % size.
+Therefore, processes (not processors) can send and receive data only to and from their
+adjacent neighbors. Note that the ring wraps around, i.e. process 0's left neighbor is
+process (size - 1) and process (size - 1)'s right neighbor is process 0.

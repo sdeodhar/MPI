@@ -1,0 +1,15 @@
+Global Sum
+
+Write a global sum operation with MPI
+You are to write a function with the following specification:
+
+void global_sum(double* result, int rank, int size, double my_value);
+
+Task: 
+
+Write a parallel program and associated helper executables, according to the exact
+functionality given below, to open a binary file with integers in it, and find the sum of all
+the numbers.
+In the parallel version, you will use a block decomposition so that each
+processor will be find a partial sum of its portion of the file. Then, the final summation of
+the partial sums will be done using our global_sum() function from the last assignment.

@@ -1,0 +1,5 @@
+Floyd's Parallel
+
+Task:
+This is for the parallel version of the Floyd’s all-pairs shortest path program, using a 2D block
+decomposition (Checker Board Decomposition) !

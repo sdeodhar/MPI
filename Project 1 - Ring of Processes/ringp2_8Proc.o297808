@@ -1,0 +1,48 @@
+Task 0 Initial value = 83
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 1 Initial value = 83
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 1 round 0 gets Delta = 83 from Task 0, Sum = 166 
+Task 2 Initial value = 90
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 2 round 0 gets Delta = 83 from Task 1, Sum = 173 
+Task 3 Initial value = 46
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 3 round 0 gets Delta = 90 from Task 2, Sum = 136 
+Task 3 round 1 gets Delta = 166 from Task 1, Sum = 302 
+Task 3 round 2 gets Delta = 194 from Task 7, Sum = 496 
+Task 3  has Final Sum = 496 
+Task 0 round 0 gets Delta = 77 from Task 7, Sum = 160 
+Task 0 round 1 gets Delta = 116 from Task 6, Sum = 276 
+Task 0 round 2 gets Delta = 220 from Task 4, Sum = 496 
+Task 0  has Final Sum = 496 
+Task 1 round 1 gets Delta = 118 from Task 7, Sum = 284 
+Task 1 round 2 gets Delta = 212 from Task 5, Sum = 496 
+Task 1  has Final Sum = 496 
+Task 2 round 1 gets Delta = 160 from Task 0, Sum = 333 
+Task 2 round 2 gets Delta = 163 from Task 6, Sum = 496 
+Task 2  has Final Sum = 496 
+Task 4 Initial value = 1
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 4 round 0 gets Delta = 46 from Task 3, Sum = 47 
+Task 4 round 1 gets Delta = 173 from Task 2, Sum = 220 
+Task 4 round 2 gets Delta = 276 from Task 0, Sum = 496 
+Task 4  has Final Sum = 496 
+Task 5 Initial value = 75
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 5 round 0 gets Delta = 1 from Task 4, Sum = 76 
+Task 5 round 1 gets Delta = 136 from Task 3, Sum = 212 
+Task 5 round 2 gets Delta = 284 from Task 1, Sum = 496 
+Task 5  has Final Sum = 496 
+Task 6 Initial value = 41
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 6 round 0 gets Delta = 75 from Task 5, Sum = 116 
+Task 6 round 1 gets Delta = 47 from Task 4, Sum = 163 
+Task 6 round 2 gets Delta = 333 from Task 2, Sum = 496 
+Task 6  has Final Sum = 496 
+Task 7 Initial value = 77
+SIZE == 8, k == 3, so tasks will execute 3 rounds
+Task 7 round 0 gets Delta = 41 from Task 6, Sum = 118 
+Task 7 round 1 gets Delta = 76 from Task 5, Sum = 194 
+Task 7 round 2 gets Delta = 302 from Task 3, Sum = 496 
+Task 7  has Final Sum = 496 

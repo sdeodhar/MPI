@@ -1,0 +1,6 @@
+
+Monte Carlo Roommate Assignment Problem (Simulated Annealing)
+
+Task: Write a program, both a sequential and parallel version, of the Monte Carlo roommate assignment
+problem described in section 10.5.4 of the Quinn textbook. Assume that the number of people is an even
+number. Use the pseudocode from figure 10.19 as a starting point.

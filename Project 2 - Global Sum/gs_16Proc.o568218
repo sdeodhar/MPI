@@ -1,0 +1,32 @@
+Total num = 100.000000
+Task 8 sends to Task 7
+Task 10 sends to Task 5
+Task 13 sends to Task 2
+Task 5 sends to Task 2
+Task 7 sends to Task 0
+Task 2 sends to Task 1
+Task 9 sends to Task 6
+Task 6 sends to Task 1
+Task 11 sends to Task 4
+Task 12 sends to Task 3
+Task 3 sends to Task 0
+Task 4 sends to Task 3
+Task 14 sends to Task 1
+Task 15 sends to Task 0
+Task 1 sends to Task 0
+Task 0  has Final Global Sum = 1306.500000 
+Task 1  has Final Global Sum = 1306.500000 
+Task 4  has Final Global Sum = 1306.500000 
+Task 15  has Final Global Sum = 1306.500000 
+Task 8  has Final Global Sum = 1306.500000 
+Task 9  has Final Global Sum = 1306.500000 
+Task 11  has Final Global Sum = 1306.500000 
+Task 3  has Final Global Sum = 1306.500000 
+Task 13  has Final Global Sum = 1306.500000 
+Task 6  has Final Global Sum = 1306.500000 
+Task 2  has Final Global Sum = 1306.500000 
+Task 5  has Final Global Sum = 1306.500000 
+Task 7  has Final Global Sum = 1306.500000 
+Task 10  has Final Global Sum = 1306.500000 
+Task 14  has Final Global Sum = 1306.500000 
+Task 12  has Final Global Sum = 1306.500000 

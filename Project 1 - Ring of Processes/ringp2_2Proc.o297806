@@ -1,0 +1,8 @@
+Task 0 Initial value = 83
+SIZE == 2, k == 1, so tasks will execute 1 rounds
+Task 0 round 0 gets Delta = 83 from Task 1, Sum = 166 
+Task 0  has Final Sum = 166 
+Task 1 Initial value = 83
+SIZE == 2, k == 1, so tasks will execute 1 rounds
+Task 1 round 0 gets Delta = 83 from Task 0, Sum = 166 
+Task 1  has Final Sum = 166 

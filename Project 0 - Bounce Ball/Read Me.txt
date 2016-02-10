@@ -1,0 +1,4 @@
+Bounce Program
+
+For this program you will use a random number generator to bounce a virtual ball
+between our MPI tasks.

@@ -1,0 +1,16 @@
+Total num = 100.000000
+Task 4 sends to Task 3
+Task 5 sends to Task 2
+Task 6 sends to Task 1
+Task 3 sends to Task 0
+Task 7 sends to Task 0
+Task 2 sends to Task 1
+Task 1 sends to Task 0
+Task 0  has Final Global Sum = 1306.500000 
+Task 4  has Final Global Sum = 1306.500000 
+Task 5  has Final Global Sum = 1306.500000 
+Task 1  has Final Global Sum = 1306.500000 
+Task 2  has Final Global Sum = 1306.500000 
+Task 7  has Final Global Sum = 1306.500000 
+Task 3  has Final Global Sum = 1306.500000 
+Task 6  has Final Global Sum = 1306.500000 

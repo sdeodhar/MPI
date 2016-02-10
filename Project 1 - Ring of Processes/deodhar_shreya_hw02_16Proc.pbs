@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N ringp2_16Proc
+#PBS -l select=2:ncpus=8:mpiprocs=8:mem=2gb:interconnect=mx
+#PBS -l walltime=00:10:00
+#PBS -j oe
+
+source /etc/profile.d/modules.sh
+
+module purge
+module add gcc/4.8.1
+module add openmpi/1.8.4
+module add fftw/3.3.3-dp-gcc-ompi
+#module add gcc/4.4 mpich2/1.4
+
+NCORES=`qstat -xf $PBS_JOBID|grep List.ncpus|sed 's/^.\{26\}//'`
+
+cd $PBS_O_WORKDIR
+
+mpiexec -n $NCORES ./shreya_deodhar_hw02
